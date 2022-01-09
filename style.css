@@ -185,5 +185,20 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 273.5PX;
-
+    column-gap: 15px;
+    margin-left: 15px;
+}
+.videogrid{
+    display: grid;
+    grid-template-rows: 142px 130px;
+}
+.videocontent1{
+    display: grid;
+    grid-template-columns: 40px 180px ;
+    grid-template-rows:70px 50px;
+}
+.textr2{
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--yt-spec-text-primary);
 }
