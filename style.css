@@ -194,11 +194,10 @@ body{
 }
 .videocontent1{
     display: grid;
-    grid-template-columns: 40px 180px ;
+    grid-template-columns: 50px 170px ;
     grid-template-rows:70px 50px;
 }
-.textr2{
+.text2{
     font-size: 13px;
     font-weight: 600;
-    color: var(--yt-spec-text-primary);
 }
