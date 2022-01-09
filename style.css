@@ -37,11 +37,10 @@ body{
     display: grid;
     grid-template-rows: 3fr 2fr 3fr 10fr 1.5fr 3fr 4fr 4fr;
     height: 640;
-    width: 190px;
-    margin: 7% 0% 7% 7%;
+    width: 210px;
+    /* margin: 7% 0% 7% 7%; */
     overflow-y: scroll;
-    overflow-x: hidden;
-   
+    overflow-x: hidden;  
 }
 .subcontent{
     display: grid;
@@ -50,6 +49,13 @@ body{
     width: 180px;
     align-items: center;
     font-size: 13px;
+    padding-left: 20px;
+}
+.menutext{
+    margin-left: 20px;
+}
+.home{
+    background-color: rgb(230, 225, 225);
 }
 .searchbar{
     display: flex;
@@ -98,6 +104,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 10px;
 }
 #user1{
     color:rgb(42, 139, 230);
@@ -109,6 +116,9 @@ body{
 
 .menucontent{
     font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px rgb(241, 234, 234);
 }
 *{
     font-family: "Roboto","Arial",sans-serif;
@@ -196,8 +206,15 @@ body{
     display: grid;
     grid-template-columns: 50px 170px ;
     grid-template-rows:70px 50px;
+    flex-wrap: wrap;
 }
 .text2{
     font-size: 13px;
     font-weight: 600;
+}
+
+.roundimage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
